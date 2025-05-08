@@ -71,9 +71,9 @@ const Todolist = () => {
 
             <div className="task-lists">
                 {task.map((t, index) => (
-                    <div className="container flex justify-center" key={index}>
-                        <div className="task-box w-100 flex flex-col text-white">
-                            <div className="task flex gap-4 items-center h-12">
+                    <div className="container" key={index}>
+                        <div className="task-box  w-screen flex justify-center  text-white">
+                            <div className="task flex gap-4  w-100 items-center h-12">
                                 <div
                                     className="checkbox w-4 h-4 border border-gray-400 rounded cursor-pointer"
                                     style={{ backgroundColor: t.ischecked ? 'green' : 'white' }}
