@@ -5,7 +5,7 @@ const Todolist = () => {
     const [usertask, setusertask] = useState('');
     const [task, settask] = useState([]);
     const [finishedtask, setfinishedtask] = useState(0);
-    const [edit, setedit] = useState(null); // Track which task is being edited
+    const [edit, setedit] = useState(null); 
 
     function addtask() {
         if (usertask.trim() !== '') {
